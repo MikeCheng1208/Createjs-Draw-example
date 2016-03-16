@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*藏字*/
+%hideText{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/*中心點*/
+@mixin transform-origin ($origin) {
+	-webkit-transform-origin: $origin;
+	   -moz-transform-origin: $origin;
+	    -ms-transform-origin: $origin;
+	     -o-transform-origin: $origin;
+		    transform-origin: $origin;
+}
